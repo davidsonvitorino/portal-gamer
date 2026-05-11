@@ -115,3 +115,10 @@ footer {
     padding: 10px;
     color: #aaa;
 }
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
