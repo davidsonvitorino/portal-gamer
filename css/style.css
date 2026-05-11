@@ -30,15 +30,24 @@ nav {
     z-index: 1000;
 }
 
+nav .menu-toggle {
+  display: none; /* escondido no desktop */
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
 /* LINKS DO MENU*/
-nav a {
+nav .menu-links {
     color: #f5f5f5;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover {
+nav .menu-links:hover {
     color: #00ff99;
 }
 
@@ -116,9 +125,30 @@ footer {
     color: #aaa;
 }
 
-@media (max-width: 600px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
+/* Responsivo (mobile) */
+@media (max-width: 768px) {
+  nav {
+    text-align: left;
+    padding: 10px;
+  }
+
+  nav .menu-toggle {
+    display: block; /* aparece no celular */
+  }
+
+  nav .menu-links {
+    display: none; /* escondido até abrir */
+    flex-direction: column;
+    background-color: #1e1e1e;
+    padding: 10px;
+  }
+
+  nav .menu-links a {
+    margin: 10px 0;
+    display: block;
+  }
+
+  nav .menu-links.active {
+    display: flex; /* mostra quando ativo */
+  }
 }
