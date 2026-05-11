@@ -16,3 +16,35 @@ Bem-vindo ao **Portal Gamer**, um site dedicado a trazer dicas, tutoriais e novi
 - Hospedagem via **GitHub Pages**.
 
 ## 📂 Estrutura do projeto
+portal-gamer/
+│
+├── index.html
+├── warzone.html
+├── fortnite.html
+├── gta.html
+├── videos.html
+├── contato.html
+│
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── img/
+
+## 🌐 Como acessar
+Após publicação no GitHub Pages, o site ficará disponível em:
+
+## 📈 Roadmap
+- [x] Criar páginas principais (Home, Warzone, Fortnite, GTA V)  
+- [x] Adicionar vídeos incorporados do YouTube  
+- [x] Criar página de contato com formulário  
+- [x] Publicar no GitHub Pages  
+- [ ] Configurar Google AdSense para monetização  
+- [ ] Adicionar links de afiliados (Amazon, Shopee, etc.)  
+- [ ] Criar espaço para comentários dos usuários  
+- [ ] Implementar backend para salvar mensagens  
+- [ ] Área VIP com conteúdo exclusivo  
+- [ ] Otimização SEO para melhor ranqueamento no Google  
+
+## 👨‍💻 Autor
+Projeto criado por **Davidson**, apaixonado por games e tecnologia.
