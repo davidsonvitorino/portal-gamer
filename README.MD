@@ -33,6 +33,7 @@ portal-gamer/
 
 ## 🌐 Como acessar
 Após publicação no GitHub Pages, o site ficará disponível em:
+https://davidsonvitorino.github.io/portal-gamer/
 
 ## 📈 Roadmap
 - [x] Criar páginas principais (Home, Warzone, Fortnite, GTA V)  
